@@ -19,7 +19,7 @@ def main():
             break
     # download the file and load into pandas dataframe
     df = pandas.read_csv(fileUrl)
-    # find the records that has the highest HourlyDryBulbTemperature
+    # find the records that has the highest HourlyDryBulbTemperature:
     maxTemp = df['HourlyDryBulbTemperature'].max()
 
     # print the record(s)
